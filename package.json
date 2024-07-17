@@ -1,0 +1,15 @@
+{
+  "name": "web700-app",
+  "version": "1.0.0",
+  "description": "A web server using Node.js and Express.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Charmane M. Labatos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body, html {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+    background: linear-gradient(to right, #e0eafc, #cfdef3); /* Light gradient background */
+    color: #333; /* Darker text color */
+}
+
+.bg-light {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Warm orange gradient */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-light .navbar-brand {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #ffd700 !important; /* Gold accent color */
+}
+
+.btn-primary {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Warm orange gradient */
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #feb47b, #ff7e5f); /* Inverse gradient */
+}
+
+/* General table styles */
+table {
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+caption {
+    caption-side: top;
+    text-align: left;
+    font-weight: bold;
+    padding: 0.75rem;
+    color: #555;
+    background: linear-gradient(to right, #f7cac9, #f6e8ea);
+    border-bottom: 2px solid #f7cac9;
+}
+
+th, td {
+    text-align: left;
+    padding: 0.75rem;
+    vertical-align: middle;
+    border-top: 1px solid #f7cac9;
+}
+
+thead th {
+    background: linear-gradient(to right, #ff6f61, #de4e3a);
+    color: #ffffff;
+    border-bottom: 2px solid #f7cac9;
+}
+
+tbody tr:hover {
+    background: #f6e8ea;
+}
+
+tfoot td {
+    background: #f7cac9;
+    font-weight: bold;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: #f6e8ea;
+}
+
+/* Links within tables */
+table a {
+    color: #ff6f61;
+    text-decoration: underline;
+}
+
+table a:hover {
+    color: #de4e3a;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    color: #333;
+    font-size: large;
+}
+
+p span {
+    color: #ff6f61;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #ff6f61;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #de4e3a;
+    text-decoration: none;
+}
