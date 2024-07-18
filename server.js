@@ -25,7 +25,7 @@ var app = express();
 
 app.use(express.urlencoded({ extended: true }));
 
-app.use(express.static('public'));
+app.use(express.static(path.join(path.resolve(), 'public')));
 
 // Import the collegeData module
 const collegeData = require('./modules/collegeData');
