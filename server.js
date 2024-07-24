@@ -180,6 +180,17 @@ app.get('/courses', (req, res) => {
         });
 });
 
+app.get('/course/:id', (req, res) => {
+    collegeData.getCourseById(req.params.id)
+        .then(data => {
+            res.render("course", {course: data[0]});
+        })
+        .catch(err => {
+            res.render("course",{ message: "no results" });
+        });
+});
+
+
 // Catch-all route for handling 404 errors (page not found)
 app.use((req, res, next) => {
     res.status(404).sendFile(path.join(__dirname, 'views', '404.html'));
