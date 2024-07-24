@@ -153,7 +153,8 @@ app.post('/student/update', (req, res) => {
             res.redirect('/students');
         })
         .catch(err => {
-            res.status(500).send("Unable to update student: " + err);
+            res.redirect('/students');
+            // res.status(500).send("Unable to update student: " + err);
         });
 });
 
