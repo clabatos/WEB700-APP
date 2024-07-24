@@ -6,7 +6,7 @@
 *
 * Name: Charmane Labatos    Student ID: 127192235    Date: 2024-07-17
 *
-* Online (Heroku) Link: ________________________________________________________
+* Online (Vercel) Link: https://web700-app-sepia.vercel.app/
 *
 ********************************************************************************/
 
