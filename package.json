@@ -10,6 +10,7 @@
   "author": "Charmane M. Labatos",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.3"
   }
 }
