@@ -1,9 +1,9 @@
 const Sequelize = require('sequelize');
 
 // Set up sequelize to point to your Postgres database
-var sequelize = new Sequelize('neondb', 'neondb_owner', 'VdhoqRMt2GW6', {
+var sequelize = new Sequelize('neondb', 'neondb_owner', 'h7CcYTaq4ifQ', {
     dialectModule: require('pg'),
-    host: 'ep-lively-sky-a5w6dzz0.us-east-2.aws.neon.tech',
+    host: 'ep-red-darkness-a51twlz2.us-east-2.aws.neon.tech',
     dialect: 'postgres',
     port: 5432,
     dialectOptions: {
