@@ -1,7 +1,10 @@
 <div class="row">
   <div class="col-md-12">
     <br>
-    <h2>Students</h2>
+    <h2>
+      Students
+      <a href="/students/add" class="btn btn-success float-right">Add New Student</a>
+    </h2>
     <hr />
     <div class="table-responsive">
       <table class="table">
@@ -25,18 +28,16 @@
                 <td>{{this.address}}</td>
                 <td>{{this.status}}</td>
                 <td><a href="/students?course={{this.course}}">{{this.course}}</a></td>
+                <td><a href="/student/delete/{{this.studentNum}}"><button class="btn btn-danger"> Remove </button></a></td>
               </tr>
             {{/each}}
           {{else}}
             <tr>
-              <td colspan="6" class="text-center"><strong>{{No students found}}</strong></td>
+              <td colspan="6" class="text-center"><strong>{{message}}</strong></td>
             </tr>
           {{/if}}
         </tbody>
       </table>
     </div>
-  </div>
-  <div class="col-md-12 text-center">
-    <strong>{{message}}</strong>
   </div>
 </div>
